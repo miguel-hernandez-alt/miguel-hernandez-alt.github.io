@@ -25,7 +25,7 @@ header {
 }
 
 .brand-box {
-  background: #e10000;
+  background: #00008B;
   color: #fff;
   padding: 8px 18px;
   font-weight: 700;
@@ -38,9 +38,11 @@ header {
 nav a {
   margin: 0 8px;
   font-weight: 500;
+  
 }
 nav a.active {
   text-decoration: underline;
+  
 }
 
 /* ========== HERO SECTION ========== */
@@ -76,7 +78,7 @@ nav a.active {
 .btn:hover { opacity: 0.85; }
 
 .btn-primary {
-  background: #e10000;
+  background: #00008B;
 }
 
 /* ========== PRODUCTS PAGE ========== */
@@ -171,7 +173,7 @@ footer {
   height: 8px;
 }
 .scroll-container::-webkit-scrollbar-thumb {
-  background: #e10000;
+  background: #00008B;
   border-radius: 4px;
 }
 
@@ -206,4 +208,58 @@ footer {
 .drop:hover {
   transform: translateY(-6px) scale(1.03);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+./* Support Page Layout */
+.support-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.support-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.support-form input,
+.support-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+/* Complaint Output Box */
+.complaint-output {
+    margin-top: 30px;
+}
+
+.complaint-box {
+    background: #f4f4f4;
+    border-left: 5px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.complaint-box h2 {
+    margin-top: 0;
 }
